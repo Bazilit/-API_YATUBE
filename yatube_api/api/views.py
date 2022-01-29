@@ -54,9 +54,6 @@ class GroupViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = GroupSerializer
     permission_classes = [IsAuthenticatedOrReadOnly, IsAuthorOrReadOnly, ]
 
-    def perform_create(self, serializer):
-        serializer.save(author=self.request.user)
-
 
 class FollowViewSet(viewsets.ModelViewSet):
     """
