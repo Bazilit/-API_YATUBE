@@ -47,7 +47,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 class GroupViewSet(viewsets.ReadOnlyModelViewSet):
     """
     ViewSet модели Group. Позволяет работать с группами пользователей.
-    Имеет функции: CR
+    Имеет функции: R
     Тип доступа: чтение
     """
     queryset = Group.objects.all()
