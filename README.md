@@ -14,6 +14,7 @@ API для социальной сети Yatube (cайт со статьями �
  * Django 2.2.16
  * Django REST Framework 3.12.4
  * Django REST Framework Simple JWT 4.7.2
+ ---
 
 ### Установка:
 
